@@ -1,0 +1,20 @@
+# Data
+data/raw/
+data/sample/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Azure ML
+azureml-logs/
+outputs/
+mlruns/
+
+# OS
+.DS_Store
