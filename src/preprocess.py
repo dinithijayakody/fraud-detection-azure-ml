@@ -8,10 +8,7 @@ import joblib
 
 def preprocess_data(input_path, output_path, test_size=0.2,random_state=42):
     """
-    Preprocess credit card fraud dataset:
-    - Scale 'Amount'
-    -Stratified train-test split
-    -Save processed datasets
+    Preprocess credit card fraud dataset: scale 'Amount', stratified train-test split and save processed datasets
 
     """
     #Load the dataset
@@ -59,8 +56,7 @@ if __name__ =="__main__":
         input_path=args.input_path,
         output_path=args.output_path,
         test_size=args.test_size,
-        random_state=args.random_state
-    )
+        random_state=args.random_state)
 
 
 
