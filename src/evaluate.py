@@ -63,19 +63,15 @@ def evaluate_model(data_path, model_path, output_path):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--data_path", type=str,required=True,help="Path to processed data directory"
-    )
+    parser.add_argument("--data_path", type=str,required=True,help="Path to processed data directory")
 
-    parser.add_argument("--model_path",type=str,required=True,help="Path to trained model file"
-    )
+    parser.add_argument("--model_path",type=str,required=True,help="Path to trained model file")
 
-    parser.add_argument("--output_path",type=str,required=True,help="Directory to save evaluation outputs"
-    )
+    parser.add_argument("--output_path",type=str,required=True,help="Directory to save evaluation outputs")
 
     args = parser.parse_args()
 
     evaluate_model(
         data_path=args.data_path,
         model_path=args.model_path,
-        output_path=args.output_path
-    )
+        output_path=args.output_path)
