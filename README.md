@@ -6,7 +6,7 @@ This project builds an end-to-end fraud detection system using Azure Machine Lea
 
 ---
 
-#Description
+# Description
 
 This project demonstrates the complete machine learning lifecycle for a real-world financial fraud detection problem. The system begins with exploratory data analysis to understand the dataset and identify challenges such as severe class imbalance. Appropriate preprocessing strategies, including stratified data splitting and feature scaling, are applied to improve minority class detection.
 
@@ -16,9 +16,9 @@ The trained model is registered in Azure ML Model Registry and deployed as a man
 
 ---
 
-#Getting Started
+# Getting Started
 
-##Dependencies
+## Dependencies
 
 Before running this project, ensure you have:
 
@@ -42,7 +42,7 @@ Installed via `requirements.txt`:
 
 ---
 
-#Installing
+# Installing
 
 ## 1️⃣ Clone the Repository
 
@@ -74,19 +74,19 @@ az login
 ```
 ### 5. Update Pipeline Configuration
 open: pipelin/pipeline.py, src/register_model.py, deployment/deploy.py 
-Replace placeholders:
+and replace placeholders:
 
-<subscription ID>
+- <subscription ID>
 
-<resource group name>
+- <resource group name>
 
-<workspace name>
+- <workspace name>
 
-<compute target name>
+- <compute target name>
 
-<environment name>:1
+- <environment name>:1
 
-<path to raw dataset in blob storage>
+- <path to raw dataset in blob storage>
 
 
 ### 6. Executing Program
@@ -107,10 +107,10 @@ python deployment/deploy.py
 
 Step 4. Test the Endpoint
 
-open :src/test_endpoint.py
-Replace placeholders:
-<end point uri>
-<api key>
+open: src/test_endpoint.py
+and replace placeholders:
+- <end point uri>
+- <api key>
 ```bash
 python src/test_endpoint.py
 ```
@@ -155,4 +155,5 @@ Model versioning and registry
 
 Managed online endpoint deployment
 
-Real-time REST API inference```
+Real-time REST API inference
+```
