@@ -68,10 +68,8 @@ pip install -r requirements.txt
 ### 4. Azure Login
 ```bash
 az login
-
-
-
 ```
+
 ### 5. Update Pipeline Configuration
 open: pipelin/pipeline.py, src/register_model.py, deployment/deploy.py 
 and replace placeholders:
@@ -133,6 +131,7 @@ fraud-detection-azure-ml/
 │
 ├── deployment/
 │   └── deploy.py
+
 │── environment/
     ├── environment.yml
 ├── notebooks/
@@ -147,13 +146,13 @@ Note: Ensure that the dataset is registered as a Data Asset and the environment 
 
 ## What This Project Demonstrates
 ```
-Handling imbalanced classification problems
+- Handling imbalanced classification problems
 
-Azure ML pipeline automation
+- Azure ML pipeline automation
 
-Model versioning and registry
+- Model versioning and registry
 
-Managed online endpoint deployment
+- Managed online endpoint deployment
 
-Real-time REST API inference
+- Real-time REST API inference
 ```
