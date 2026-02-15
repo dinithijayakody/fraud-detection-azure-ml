@@ -1,9 +1,10 @@
 # Data
 data/raw/
-data/sample/
+data/processed/
 
-# Notebooks checkpoints
+# Notebooks
 .ipynb_checkpoints/
+*.ipynb_checkpoints
 
 # Python
 __pycache__/
@@ -11,10 +12,24 @@ __pycache__/
 .venv/
 env/
 
+# Models
+models/
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
 # Azure ML
 azureml-logs/
 outputs/
 mlruns/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
 
 # OS
 .DS_Store
