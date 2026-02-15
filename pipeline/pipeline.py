@@ -14,7 +14,7 @@ ml_client = MLClient(
 @dsl.pipeline(
     name="fraud-detection-pipeline",
     description="End-to-end fraud detection pipeline (preprocess, train and evaluate)",
-    default_compute="<compute target name>"
+    default_compute="<compute target>"
 )
 def fraud_pipeline(raw_data):
 
