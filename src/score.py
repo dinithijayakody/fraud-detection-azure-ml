@@ -6,7 +6,6 @@ import logging
 import numpy as np
 import pandas as pd
 
-# Global model variable
 model = None
 
 def init():
