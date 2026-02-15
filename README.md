@@ -76,17 +76,17 @@ az login
 open: pipelin/pipeline.py, src/register_model.py, deployment/deploy.py 
 and replace placeholders:
 
-- <subscription ID>
+- subscription ID
 
-- <resource group name>
+- resource group name
 
-- <workspace name>
+- workspace name
 
-- <compute target name>
+- compute target name
 
-- <environment name>:1
+- environment name>:1
 
-- <path to raw dataset in blob storage>
+- path to raw dataset in blob storage
 
 
 ### 6. Executing Program
@@ -109,8 +109,8 @@ Step 4. Test the Endpoint
 
 open: src/test_endpoint.py
 and replace placeholders:
-- <end point uri>
-- <api key>
+- end point uri
+- api key
 ```bash
 python src/test_endpoint.py
 ```
