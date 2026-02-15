@@ -134,6 +134,7 @@ fraud-detection-azure-ml/
 
 │── environment/
     ├── environment.yml
+    
 ├── notebooks/
     ├── eda.ipynb
 
